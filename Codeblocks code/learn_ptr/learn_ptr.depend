@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524249164 source:c:\users\levm9\desktop\code\codeblocks code\learn_ptr\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+

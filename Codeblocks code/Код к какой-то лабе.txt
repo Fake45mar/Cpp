@@ -1,0 +1,40 @@
+program project1;
+uses
+Sysutils, Math;
+const
+  y=-5.5;
+  n=16;
+var
+  a:array[1..n] of float;
+  x:array[1..n] of float = (-1.8,-1.6,-1.4,-1.2,-1.0,-0.8,-0.6,-0.4,-0.2,0,0.2,0.4,0.6,0.8,1.0,1.2);
+  i,j:integer;
+       z:real;
+       o:integer;
+       mul:real;
+begin
+  for i:=1 to n do
+  write('   ',x[i]:4:2);
+  mul:=1;
+  o:=0;
+  z:=1;
+  for i:=1 to n do
+  mul:=(x[i])+sqr(y);
+  for i:=1 to n do
+  if mul<1 then
+  z:=x[i]*y
+  else
+    if mul>=1 then
+    z:=sqr(abs(x[i]*y));
+  for j:=1 to n do
+  a[j]:=z;
+  o:=o+1;
+        for i:=1 to n do
+  writeln('mul =',mul:8:4);
+  for j:=1 to n do
+  writeln('Massiv of rezult',a[j]:4:2);
+  readln;
+
+
+
+
+end.

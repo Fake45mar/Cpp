@@ -1,0 +1,22 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+     int date;
+     cout<< "vvedi a" << endl;
+     cin>> date;
+    switch (date) {
+        case 11: 
+        cout<<"eleven";
+        break;
+        case 193:
+        cout<< "one hundreed and nighty three";
+        break;
+        case 1193:
+        cout<< "one thousand one hundreed ant nighty three" << endl;
+        default:
+        cout<< "none action, switch 11, 193, 1193 \n";
+        
+        }
+    }

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524219401 source:c:\users\levm9\desktop\code\codeblocks code\water_1\main.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+

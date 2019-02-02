@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523887495 source:c:\users\levm9\desktop\code\codeblocks code\111111\main.cpp
+	<windows.h>
+	<iostream>
+	<clocale>
+

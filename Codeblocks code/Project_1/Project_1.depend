@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1523880196 source:c:\users\levm9\desktop\code\codeblocks code\project_1\main.cpp
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	<clocale>
+	<locale>
+
